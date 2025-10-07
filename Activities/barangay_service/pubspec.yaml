@@ -1,0 +1,27 @@
+name: barangay_service
+description: A Barangay Service App for Flutter hands-on tasks
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ Add intl for DateFormat
+  intl: ^0.19.0
+
+  # ✅ Add staggered grid view for gallery page
+  flutter_staggered_grid_view: ^0.7.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
